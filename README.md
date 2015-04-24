@@ -15,3 +15,9 @@ To get this to work:
 3. Type ssf and the space bar or tab and 'select * from' will be typed on your screen.
 
 Thanks to https://github.com/AutoHotkey/AutoHotkey for writing this great piece of software.
+
+To avoid manually starting the script everytime you restart your machine, here's how to launch this script automatically on startup in Windows 8.1:
+
+1. Type Windows Key + R to bring up run bar
+2. Type shell:startup in run bar (brings up the startup folder)
+3. Copy SQL_Code_Snippet.ahk file into startup folder
